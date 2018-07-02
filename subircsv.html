@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+  </head>
+  <body>
+    <div class="container_subirCsv">
+      <h2>¡Subí el archivo del día!</h2>
+      <div class="form_container">
+        <form action="converter.php" method="post" name="uploadCSV" enctype="multipart/form-data">
+            <div class="login_container">                    
+                <input type="file" name="file" id="file" accept="text/csv, .csv"><br>
+                <button type="submit" id="submit" name="import" class="input_subir">SUBIR</button><br>          
+                <span>*Recordá que el formato del mismo debe ser .csv</span>       
+            </div>            
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

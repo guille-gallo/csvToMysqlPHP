@@ -1,0 +1,132 @@
+body {    
+    margin: 0;
+    background-color: #E5E5E5;
+}
+h2 {
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+span {
+    font-family: 'Titillium Web', sans-serif;
+}
+form.consulta{
+    display: inline-block;
+    width: 45%;
+}
+.container,
+.logos_container {
+    background-color: #70B125;
+}
+.logos_container,
+.logos_container_subirCsv {
+    text-align: center;
+    padding: 20px;
+}
+.logos_container img,
+.logos_container_subirCsv img {
+    padding-right: 25px;
+}
+.logos_container_subirCsv {
+    background-color: #666666;
+}
+.container_subirCsv h2 {
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container_subirCsv {
+    background-color: #666666;
+}
+.container .form_container,
+.container_subirCsv .form_container {
+    position: relative;
+    top: 65px;
+    margin: auto;
+    width: 50%;    
+    padding: 30px;
+    background-color: #fff;
+    
+}
+.container h2 {
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+}
+.form_container .input_consulta,
+.form_container .input_ingreso {
+    background: #70B125;
+    border: 1px solid #70B125;
+    padding: 14px;
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.form_container .input_subir {
+    background: #666666;
+    border: 1px solid #666666;
+    padding: 14px;
+    color: #fff;
+    margin-top: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+.beneficiado {
+    display: inline-block;
+    width: 45%;
+}
+
+.login_container {
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
+.login_container span {
+    font-weight: bold;
+}
+.usuario_container,
+.clave_container {
+    display: inline-block;
+}
+.input_ingreso,
+.input_subir {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+#dni_label,
+#blc_label {
+    font-weight: bold;
+}
+.beneficiado img {
+    width: 25%;
+}
+form.logout {
+    padding-top: 50px;
+}
+.input_cerrar_sesion {
+    background: #666666;
+    border: 1px solid #666666;    
+    color: #fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+/*
+    Responsive Media Queries:
+*/
+@media screen and (max-width: 436px) {
+    .logos_container,
+    .logos_container_subirCsv { 
+        padding: 15px;
+    }
+    .container .form_container, 
+    .container_subirCsv .form_container {
+        width: auto;
+    }
+    .beneficiado { 
+        padding-left: 20px;
+    }
+}
